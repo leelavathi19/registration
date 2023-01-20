@@ -1,0 +1,76 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://img.freepik.com/free-vector/watercolor-nature-background-with-leaves_52683-59449.jpg?w=2000);
+    background-size: cover;
+    background-attachment: fixed;
+}
+label{
+    display: inline-block;
+}
+h1{
+    margin: 4% auto;
+}
+form{
+    background-color: aqua;
+    width: 600px;
+    height: 700px;
+    padding-top: 5px;
+}
+input[type=text]{
+    width: 250px;
+    margin: 5%;
+}
+
+input[type=number]{
+    width: 250px;
+    margin: 5%;
+}
+
+input[type=email]{
+    width: 250px;
+    margin: 5%;
+}
+
+input[type=tel]{
+    width: 250px;
+    margin: 5%;
+}
+
+input[type=password]{
+    width: 250px;
+    margin: 5%;
+}
+
+button{
+    width: 150px;
+    position: absolute;
+    top: auto;
+    left: 55%;
+    margin-top: 2%;
+}
+
+label{
+    width: 200px;
+    margin-left: 50%;
+    margin-right: 5%;
+}
+
+
+.form-control{
+    margin-left: 4%;
+    width: 254px;
+    height: 51px;
+    
+}
+
+
+.form-control-gender{
+    width: 10px;
+    margin-left: 5%;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
